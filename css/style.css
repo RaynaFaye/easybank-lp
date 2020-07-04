@@ -66,3 +66,51 @@ a:focus svg path {
 .attribution a {
   color: #ffffff;
 }
+
+/* Media Queries */
+@media all and (min-width: 728px) {
+  /* Footer Section */
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    text-align: left;
+    padding: 50px 150px;
+    row-gap: 50px;
+  }
+  .footer__logo-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .footer__social-links {
+    justify-content: left;
+    margin: 0;
+  }
+  .footer__social-link {
+    margin: 5px;
+  }
+  .footer__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .footer__copyright-section {
+    justify-self: end;
+    text-align: right;
+  }
+  .footer__copyright {
+    margin: 40px 0 0 0;
+  }
+  /* Attribution Section */
+  .attribution {
+    grid-row: 2;
+    grid-column: 1/-1;
+  }
+}
+@media all and (max-width: 1010px) {
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+  }
+}
