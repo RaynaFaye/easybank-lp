@@ -16,6 +16,45 @@ body {
   padding: 15px 30px;
   cursor: pointer;
 }
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+.header__mobile-menu__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header__menu {
+  display: block;
+  list-style: none;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 0;
+  padding-top: 25px;
+  margin: 0;
+  position: absolute;
+  top: 85px;
+  left: 15px;
+  width: 90%;
+  z-index: 2;
+}
+.header__menu__hidden {
+  display: none;
+}
+.header__menu__item {
+  margin-bottom: 25px;
+}
+.header__menu__link {
+  text-decoration: none;
+  color: hsl(233, 26%, 24%);
+}
+.header__menu__button {
+  display: none;
+}
 
 /* Footer Section */
 .footer {
