@@ -13,3 +13,11 @@ menuButton.addEventListener('click', () => {
     menuButton.setAttribute('aria-expanded', 'false');
   }
 });
+
+document.addEventListener('keyup', (event) => {
+  if (!menuBlock.classList.contains('header__menu__hidden') && event.key === 'Escape') {
+    menuBlock.classList.add('header__menu__hidden');
+    menuButtonImage.src = 'images/icon-hamburger.svg';
+    menuButton.setAttribute('aria-expanded', 'false');
+  }
+});
