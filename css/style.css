@@ -8,7 +8,7 @@ body {
 .button {
   font-family: 'Public Sans', sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
   color: #ffffff;
   border: none;
@@ -73,7 +73,7 @@ body {
   margin-top: -135px;
 }
 .intro__title {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 42px;
   color: hsl(233, 26%, 24%);
   padding: 0 15px;
@@ -166,6 +166,33 @@ a:focus svg path {
   }
   .header__menu__button {
     display: block;
+  }
+  /* Intro Section */
+  .intro {
+    display: flex;
+    padding-left: 150px;
+    text-align: left;
+  }
+  .intro__image-block {
+    background: no-repeat url(../images/bg-intro-desktop.svg);
+    background-position-y: -275px;
+    background-position-x: -70px;
+    background-size: unset;
+    flex: 1 1 0;
+    order: 2;
+    padding: 0;
+  }
+  .intro__image {
+    margin-top: -100px;
+    margin-left: 110px;
+  }
+  .intro__text-block {
+    flex: 1 1 0;
+    padding-top: 200px;
+  }
+  .intro__title {
+    font-size: 50px;
+    margin: 0;
   }
   /* Footer Section */
   .footer {
