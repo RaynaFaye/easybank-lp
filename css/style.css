@@ -20,7 +20,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 15px;
+  padding: 20px;
 }
 .header__mobile-menu__button {
   background: none;
@@ -55,7 +55,35 @@ body {
 .header__menu__button {
   display: none;
 }
-
+/* Intro Section */
+.intro {
+  text-align: center;
+  background: hsl(0, 0%, 98%);
+  padding-bottom: 100px;
+}
+.intro__image-block {
+  background: url(../images/bg-intro-mobile.svg);
+  background-size: cover;
+  background-position-y: top -75px;
+  overflow: hidden;
+  padding: 0 15px;
+}
+.intro__image {
+  width: 100%;
+  margin-top: -135px;
+}
+.intro__title {
+  font-weight: 400;
+  font-size: 42px;
+  color: hsl(233, 26%, 24%);
+  padding: 0 15px;
+  margin: 25px 0 0 0;
+}
+.intro__paragraph {
+  color: hsl(233, 8%, 62%);
+  margin: 25px 0;
+  padding: 0 15px;
+}
 /* Footer Section */
 .footer {
   background: hsl(233, 26%, 24%);
@@ -178,7 +206,7 @@ a:focus svg path {
     grid-column: 1/-1;
   }
 }
-@media all and (max-width: 1040px) {
+@media all and (max-width: 1040px) and (min-width: 728px) {
   /* Header */
   .header {
     padding: 20px 50px;
