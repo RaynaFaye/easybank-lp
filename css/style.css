@@ -253,6 +253,25 @@ a:focus svg path {
     font-size: 50px;
     margin: 0;
   }
+  /* Why us Section */
+  .why-us {
+    padding: 50px 150px;
+    text-align: left;
+  }
+  .why-us__title {
+    font-size: 40px;
+  }
+  .why-us__first-paragraph {
+    width: 50%;
+  }
+  .why-us__facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+  .why-us__sub-title {
+    font-size: 24px;
+  }
   /* Articles Section */
   .articles {
     padding: 50px 150px 75px 150px;
@@ -307,6 +326,18 @@ a:focus svg path {
   }
   .header__menu__item {
     margin-right: 15px;
+  }
+  /* Why us Section */
+  .why-us {
+    padding: 50px;
+  }
+  .why-us__first-paragraph {
+    width: 75%;
+  }
+  .why-us__facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
   }
   /* Articles Section */
   .articles {
