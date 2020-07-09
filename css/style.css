@@ -102,6 +102,40 @@ body {
 .why-us__icon {
   margin-top: 25px;
 }
+/* Articles Section */
+.articles {
+  background: hsl(0, 0%, 98%);
+  color: hsl(233, 8%, 62%);
+  padding: 50px 15px 75px 15px;
+}
+.articles__title {
+  font-size: 34px;
+  text-align: center;
+}
+.articles__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 25px;
+}
+.articles__card {
+  background: #ffffff;
+  border-radius: 5px;
+}
+.articles__card__image {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  max-height: 400px;
+  max-width: 500px;
+}
+.articles__card__text {
+  padding: 25px;
+}
+.articles__card__author {
+  font-size: 12px;
+}
+.articles__card__paragraph {
+  font-size: 14px;
+}
 /* Footer Section */
 .footer {
   background: hsl(233, 26%, 24%);
