@@ -247,7 +247,7 @@ a:focus svg path {
   /* Intro Section */
   .intro {
     display: grid;
-    grid-template-columns: 40vw 50vw;
+    grid-template-columns: 45% 55%;
     padding-left: 150px;
     text-align: left;
   }
