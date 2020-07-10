@@ -16,6 +16,10 @@ body {
   padding: 15px 30px;
   cursor: pointer;
 }
+.button:hover,
+.button:focus {
+  background: linear-gradient(to right, hsl(136, 69%, 70%), hsl(192, 66%, 67%));
+}
 .title {
   color: hsl(233, 26%, 24%);
   font-weight: 300;
@@ -222,6 +226,11 @@ a:focus svg path {
   .header__menu__link {
     color: hsl(233, 8%, 62%);
     padding-bottom: 30px;
+  }
+  .header__menu__link:hover,
+  .header__menu__link:focus {
+    color: hsl(233, 26%, 24%);
+    border-bottom: 5px solid hsl(136, 65%, 51%);
   }
   .header__menu__button {
     display: block;
